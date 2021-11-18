@@ -22,17 +22,17 @@ const questions = [
     {
         type: 'input',
         name: 'install',
-        message: `If applicable, describe the steps required to install your project for the Installation section.`,
+        message: `If applicable, describe the steps required to install your project for the Installation section.(Clone, etc):`,
     },
     {
         type: "input",
         name: "usage",
-        message: "Please provide the project usage"
+        message: "Please provide the project usage (written instruction, how-to-video, screenshoot etc)"
     },
     {
         type: 'input',
         name: 'tests',
-        message: "If applicable, provide any tests written for your application and provide examples on how to run them.",
+        message: "If applicable, command to run or test your application:",
        
     },
     {
