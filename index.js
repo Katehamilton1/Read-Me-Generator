@@ -11,38 +11,23 @@ const questions = [
         type: 'input',
         name: 'title',
         message: `what is the title of your repository`,
-        validate: nameInput => {
-            if (nameInput) {
-                return true;
-            } else {
-                console.log('Please enter your repository title.');
-                return false;
-            }
-        }
     },
     {
         type: 'input',
         name: 'description',
         message: 'What is the description of your repository?',
-        // validate: nameInput => {
-        //     if (nameInput) {
-        //         return true;
-        //     } else {
-        //         console.log('Please enter a description of the repository.');
-        //         return false;
-        //     }
-        // }
+     
     },
+   
     {
         type: 'input',
-        name: 'github',
-        message: `Whats your GitHub user Name?`,
-    },
-
-    {
-        type: 'confirm',
         name: 'install',
-        message: `Do you want to add any installation notes?`,
+        message: `please provide installation notes`,
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "Please provide the project usage"
     },
     {
         type: 'rawlist',
@@ -57,23 +42,28 @@ const questions = [
         ]
     },
     {
-        type: 'confirm',
-        name: 'credits',
-        message: `Would you like to add any credits to the repo?`,
+        type: 'input',
+        name: 'github',
+        message: `Whats your GitHub user Name?`,
+    },
+    {
+        type: "input",
+        name: "repo",
+        message: "What is your repo link?"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "Please provide your email"
+    },
+    {
+        type: "input",
+        name: "contributors",
+        message: "Please provide the contributing parties"
     },
 
 ];
 
-
-// TODO: Create a function to write README file
-// function writeToFile() { }
-// let content = generateMarkdown(data);
-// fs.writeFile(fileName, content, function (error) {
-//     if (error) {
-//         return console.log(error)
-//     }
-//     console.log('success')
-// });
 
 function writeToFile(fileName, data) {
 return fs.writeFileSync(path.join(process.cwd(), fileName), data)

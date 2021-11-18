@@ -1,27 +1,38 @@
-# undefined
+# going new places
   ## Badges
-  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 ## Table of Contents
-* [title](#title)
-* [Description](#description)
-* [userName](#userName)
-* [Installation](#installation)
+* [Decription](#Decription)
+* [Installation](#Installation)
+* [Usage](#Usage)
 * [License](#license)
+* [Contributors](#Contributors)
+* [Test](#Test)
+* [Repository Link](#Repository)
+* [GitHub Info](#GitHub) 
 
 
 
 ## Description
-undefined
+travel blog
 
 ##Instalation
-undefined
+easy
 
-
+##Usage 
+used to follow a blogger
 
 ## Licences 
+Read more about MIT here:
+[undefined](https://opensource.org/licenses/MIT)
 
+## Contributors
+jon 
 
+##Tests
+undefined
 
+##Questions
 
