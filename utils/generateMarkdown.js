@@ -55,39 +55,37 @@ function generateMarkdown(data) {
   ## Badges
   ${renderLicenseBadge(data.license)}
 
-
-## Table of Contents
-* [Decription](#Decription)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [License](#license)
-* [Contributors](#Contributors)
-* [Test](#Test)
-* [Repository Link](#Repository)
-* [GitHub Info](#GitHub) 
-
-
-
-## Description
-${data.description}
-
-##Instalation
-${data.install}
-
-##Usage 
-${data.usage}
-
-## Licences 
-${renderLicenseSection(data.license)}
-${renderLicenseLink(data.license)}
-
-## Contributors
-${data.contributors}
-
-##Tests
-${data.test}
-
-##Questions
+  ## Table of Contents
+  * [title](#title)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributors](#contributors)
+  * [Tests](#tests)
+  * [License](#license)
+  
+  ## Title
+  ${data.title}
+  
+  ## Description
+  ${data.description}
+  
+  ## Instalation
+  ${data.install}
+  
+  ## Usage
+  ${data.usage}
+  
+  ## Contributors
+  ${data.contributors}
+  
+  ## Tests
+  ${data.testing}
+  
+  ## Questions
+  ${data.github}
+  ${data.repo}
+  ${data.email}
 
 `;
 }
