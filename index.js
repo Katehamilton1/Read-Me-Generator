@@ -22,12 +22,18 @@ const questions = [
     {
         type: 'input',
         name: 'install',
-        message: `please provide installation notes`,
+        message: `If applicable, describe the steps required to install your project for the Installation section.`,
     },
     {
         type: "input",
         name: "usage",
         message: "Please provide the project usage"
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: "If applicable, provide any tests written for your application and provide examples on how to run them.",
+       
     },
     {
         type: 'rawlist',
@@ -48,8 +54,8 @@ const questions = [
     },
     {
         type: "input",
-        name: "repo",
-        message: "What is your repo link?"
+        name: "link",
+        message: "What is your github link?"
     },
     {
         type: "input",
@@ -61,6 +67,12 @@ const questions = [
         name: "contributors",
         message: "Please provide the contributing parties"
     },
+    {
+        type: "input",
+        name: "questions",
+        message: "instructions on how to reach you with additional questions "
+    },
+
 
 ];
 
