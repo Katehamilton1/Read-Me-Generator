@@ -23,7 +23,7 @@
   git clone, package.json, npm init, nmp installer
   
   ## Usage
-  video link goes here
+https://youtu.be/awLoCtdUKpM
   
   ## Contributors
   Kate Hamilton
